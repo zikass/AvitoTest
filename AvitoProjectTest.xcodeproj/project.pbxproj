@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0223AE3E363046EAE1FCFD6B /* Pods_AvitoProjectTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC3543440EE71FCD59D2A373 /* Pods_AvitoProjectTest.framework */; };
 		3D0C2E8C204DE5A600F6C9FE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C2E8B204DE5A600F6C9FE /* AppDelegate.swift */; };
-		3D0C2E8E204DE5A600F6C9FE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0C2E8D204DE5A600F6C9FE /* ViewController.swift */; };
 		3D0C2E91204DE5A600F6C9FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C2E8F204DE5A600F6C9FE /* Main.storyboard */; };
 		3D0C2E93204DE5A600F6C9FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C2E92204DE5A600F6C9FE /* Assets.xcassets */; };
 		3D0C2E96204DE5A600F6C9FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D0C2E94204DE5A600F6C9FE /* LaunchScreen.storyboard */; };
+		3D29C375204DF6F20014221A /* NetworkingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D29C374204DF6F20014221A /* NetworkingController.swift */; };
+		3DE90987204DEFCD0079BF18 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE90982204DEFCC0079BF18 /* HomeViewController.swift */; };
+		3DE90988204DEFCD0079BF18 /* ListViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DE90984204DEFCC0079BF18 /* ListViewCell.xib */; };
+		3DE90989204DEFCD0079BF18 /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE90985204DEFCC0079BF18 /* ListViewCell.swift */; };
+		3DE9098B204DF1110079BF18 /* AdsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DE9098A204DF1110079BF18 /* AdsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3D0C2E88204DE5A600F6C9FE /* AvitoProjectTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvitoProjectTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D0C2E8B204DE5A600F6C9FE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D0C2E8D204DE5A600F6C9FE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D0C2E90204DE5A600F6C9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D0C2E92204DE5A600F6C9FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3D0C2E95204DE5A600F6C9FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D0C2E97204DE5A600F6C9FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D29C374204DF6F20014221A /* NetworkingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingController.swift; sourceTree = "<group>"; };
+		3DE90982204DEFCC0079BF18 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3DE90984204DEFCC0079BF18 /* ListViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListViewCell.xib; sourceTree = "<group>"; };
+		3DE90985204DEFCC0079BF18 /* ListViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		3DE9098A204DF1110079BF18 /* AdsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsView.swift; sourceTree = "<group>"; };
+		B2001F07DCD23BB91C5E28C9 /* Pods-AvitoProjectTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvitoProjectTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvitoProjectTest/Pods-AvitoProjectTest.release.xcconfig"; sourceTree = "<group>"; };
+		DC3543440EE71FCD59D2A373 /* Pods_AvitoProjectTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvitoProjectTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF65C7CA4588CA43D421A981 /* Pods-AvitoProjectTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvitoProjectTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvitoProjectTest/Pods-AvitoProjectTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +41,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0223AE3E363046EAE1FCFD6B /* Pods_AvitoProjectTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D080B91A24A2638F0B01C6C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF65C7CA4588CA43D421A981 /* Pods-AvitoProjectTest.debug.xcconfig */,
+				B2001F07DCD23BB91C5E28C9 /* Pods-AvitoProjectTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3D0C2E7F204DE5A600F6C9FE = {
 			isa = PBXGroup;
 			children = (
 				3D0C2E8A204DE5A600F6C9FE /* AvitoProjectTest */,
 				3D0C2E89204DE5A600F6C9FE /* Products */,
+				2D080B91A24A2638F0B01C6C /* Pods */,
+				513F354F1B0B186F88025E56 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +78,58 @@
 		3D0C2E8A204DE5A600F6C9FE /* AvitoProjectTest */ = {
 			isa = PBXGroup;
 			children = (
+				3DE90986204DEFCD0079BF18 /* Module */,
+				3DE90983204DEFCC0079BF18 /* Views */,
+				3DE90981204DEFCC0079BF18 /* Controller */,
 				3D0C2E8B204DE5A600F6C9FE /* AppDelegate.swift */,
-				3D0C2E8D204DE5A600F6C9FE /* ViewController.swift */,
 				3D0C2E8F204DE5A600F6C9FE /* Main.storyboard */,
 				3D0C2E92204DE5A600F6C9FE /* Assets.xcassets */,
 				3D0C2E94204DE5A600F6C9FE /* LaunchScreen.storyboard */,
 				3D0C2E97204DE5A600F6C9FE /* Info.plist */,
 			);
 			path = AvitoProjectTest;
+			sourceTree = "<group>";
+		};
+		3D29C373204DF6D70014221A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3D29C374204DF6F20014221A /* NetworkingController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3DE90981204DEFCC0079BF18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3D29C373204DF6D70014221A /* Base */,
+				3DE90982204DEFCC0079BF18 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DE90983204DEFCC0079BF18 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3DE90984204DEFCC0079BF18 /* ListViewCell.xib */,
+				3DE90985204DEFCC0079BF18 /* ListViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3DE90986204DEFCD0079BF18 /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				3DE9098A204DF1110079BF18 /* AdsView.swift */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		513F354F1B0B186F88025E56 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC3543440EE71FCD59D2A373 /* Pods_AvitoProjectTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +139,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3D0C2E9A204DE5A600F6C9FE /* Build configuration list for PBXNativeTarget "AvitoProjectTest" */;
 			buildPhases = (
+				24A49E5C7A3F7CBC8B4AE645 /* [CP] Check Pods Manifest.lock */,
 				3D0C2E84204DE5A600F6C9FE /* Sources */,
 				3D0C2E85204DE5A600F6C9FE /* Frameworks */,
 				3D0C2E86204DE5A600F6C9FE /* Resources */,
+				6248F29D3009C77EA31A11F9 /* [CP] Embed Pods Frameworks */,
+				CA7CB6AE8B7CE16980DD2469 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,6 +194,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DE90988204DEFCD0079BF18 /* ListViewCell.xib in Resources */,
 				3D0C2E96204DE5A600F6C9FE /* LaunchScreen.storyboard in Resources */,
 				3D0C2E93204DE5A600F6C9FE /* Assets.xcassets in Resources */,
 				3D0C2E91204DE5A600F6C9FE /* Main.storyboard in Resources */,
@@ -131,13 +203,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24A49E5C7A3F7CBC8B4AE645 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AvitoProjectTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6248F29D3009C77EA31A11F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AvitoProjectTest/Pods-AvitoProjectTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvitoProjectTest/Pods-AvitoProjectTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA7CB6AE8B7CE16980DD2469 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvitoProjectTest/Pods-AvitoProjectTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3D0C2E84204DE5A600F6C9FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D0C2E8E204DE5A600F6C9FE /* ViewController.swift in Sources */,
+				3DE90989204DEFCD0079BF18 /* ListViewCell.swift in Sources */,
 				3D0C2E8C204DE5A600F6C9FE /* AppDelegate.swift in Sources */,
+				3DE90987204DEFCD0079BF18 /* HomeViewController.swift in Sources */,
+				3DE9098B204DF1110079BF18 /* AdsView.swift in Sources */,
+				3D29C375204DF6F20014221A /* NetworkingController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +405,7 @@
 		};
 		3D0C2E9B204DE5A600F6C9FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF65C7CA4588CA43D421A981 /* Pods-AvitoProjectTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +420,7 @@
 		};
 		3D0C2E9C204DE5A600F6C9FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2001F07DCD23BB91C5E28C9 /* Pods-AvitoProjectTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

@@ -12,9 +12,6 @@ import SwiftyJSON
 
 class NetworkingController: UIViewController {
 
-    // MARK: - Type alias
-    typealias Parameters = [String: Any]
-
     // MARK: - Sending request
     func networkingGET(url: String, headers: [String : String])
     {

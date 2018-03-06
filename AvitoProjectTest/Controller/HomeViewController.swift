@@ -23,13 +23,11 @@ class HomeViewController: NetworkingController , UITableViewDelegate , UITableVi
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
-        self.navigationController?.navigationBar.isHidden = false
-        
         //register cell
         let nib = UINib(nibName: "ListViewCell", bundle: nil)
         self.AdsTableview.register(nib, forCellReuseIdentifier: "adsCell")
-        
+       
+        //Call Networking method
             getAdsList()
     }
 
